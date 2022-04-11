@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# Getting Started with React, public repo to get you going quickly by showcasing all essential topics you should know about REACT in Typescript!
+
+The topic include :
+React-Router : usage of Routes, routes, Link, nested Routes , programatic route navigation ✅
+useContext: to pass state and functionality by React context in typescript.n ✅
+useReducer : to manage complex and related staten ✅
+usage of the main hooks : useRef, useState, useRef, n ✅
+
+React Query library 
+
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

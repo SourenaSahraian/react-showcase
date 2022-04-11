@@ -1,4 +1,6 @@
 import React, { useReducer } from 'react'
+import { useNavigate } from 'react-router-dom'
+
 
 
 type FormState = {
@@ -54,10 +56,13 @@ const reducer = (state:FormState, action:FormAction) => {
 function Form() {
 
     const [state, dispatch] = useReducer(reducer, initState)
+    const navigate = useNavigate();
 
     const handleSubmmit = () => {
         console.log(' emulating an ajax call to server !');
         console.log(JSON.stringify(state,null,2));
+        navigate('/')
+
     }
 
     const hanldeInputChange = (event:React.ChangeEvent<HTMLInputElement>) => {
