@@ -9,7 +9,7 @@ import UserContetx from './component/UserContetx';
 
 function App() {
   return (
-
+    <div >
       <>
       <UserContetx>
         <Routes>
@@ -22,7 +22,7 @@ function App() {
       </>
 
 
-
+    </div>
   );
 }
 
