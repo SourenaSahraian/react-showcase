@@ -1,10 +1,23 @@
 # Getting Started with React, public repo to get you going quickly by showcasing all essential topics you should know about REACT in Typescript!
 
 The topic include :
+
 React-Router : usage of Routes, routes, Link, nested Routes , programatic route navigation ✅
+
 useContext: to pass state and functionality by React context in typescript.n ✅
+
 useReducer : to manage complex and related staten ✅
-usage of the main hooks : useRef, useState, useRef, n ✅
+
+usage of the main hooks : useRef, useState, useRef, ✅
+
+support for tail wind CSS .
+
+useQuery :
+
+recoil: gmy favorite tool for state managmenet 
+
+Infinite Scroll:
+
 
 React Query library 
 
@@ -22,6 +35,7 @@ React-Router : usage of Routes, routes, Link, nested Routes , programatic route 
 useContext: to pass state and functionality by React context in typescript.n ✅
 useReducer : to manage complex and related staten ✅
 usage of the main hooks : useRef, useState, useRef, n ✅
+
 
 React Query library 
 

@@ -1,8 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import Form from './component/Form';
 
+import Form from './component/Form';
 import Order from './component/Order';
 import Home from './component/SessionManager';
 import UserContetx from './component/UserContetx';
@@ -10,7 +9,7 @@ import UserContetx from './component/UserContetx';
 
 function App() {
   return (
-    <div className="App">
+
       <>
       <UserContetx>
         <Routes>
@@ -23,7 +22,7 @@ function App() {
       </>
 
 
-    </div>
+
   );
 }
 
