@@ -5,7 +5,7 @@ function useLocalStorage(key: string, defaultValue:string = '') {
     const [sessionData, setSessionData] = useState<string|object>(() => {
         try {
             const saved = localStorage.getItem(key);
-            if (saved !== null) {
+            if (saved) {
                 return JSON.parse(saved);
             }
             return defaultValue;

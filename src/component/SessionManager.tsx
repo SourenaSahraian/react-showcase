@@ -5,6 +5,7 @@ import {AuthContext} from './UserContetx'
 function SessionManager() {
 
     const {setUser} = useContext(AuthContext); 
+    
     useEffect(() => {
       setUser({
             name: "Soorena",

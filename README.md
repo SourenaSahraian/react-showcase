@@ -19,7 +19,7 @@ recoil: gmy favorite tool for state managmenet
 Infinite Scroll:
 
 
-React Query library 
+React Query library  ✅
 
 
 
